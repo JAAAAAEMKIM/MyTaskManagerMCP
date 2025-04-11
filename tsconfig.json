@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "target": "ES2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": [
+      "ES2022",
+      "DOM"
+    ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+
+    /* Modules */
+    "module": "ESNext" /* Vite와 함께 사용하기 위해 ESNext 사용 */,
+    "moduleResolution": "Node16" /* 원래 설정으로 복원 */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "resolveJsonModule": true /* Enable importing .json files. */,
+
+    /* Emit */
+    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+
+    /* Interop Constraints */
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    /* JSX */
+    "jsx": "react-jsx" /* Vite와 함께 사용하기 위해 react-jsx로 변경 */,
+
+    /* 추가 옵션 */
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports */,
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
