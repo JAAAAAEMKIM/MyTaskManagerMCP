@@ -5,5 +5,5 @@ cd /Users/nhn/Projects/MyTaskManagerMCP
 . "$NVM_DIR/nvm.sh" > /dev/null 2>&1
 nvm use 22 > /dev/null 2>&1
 
-# 빌드 및 서버 실행
-npm run start
+# 서버 실행 (새로운 구조에 맞게 수정)
+node server/dist/index.js
